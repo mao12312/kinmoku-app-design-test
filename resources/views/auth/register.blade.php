@@ -93,8 +93,8 @@
                         @if(config('settings.reCaptchStatus'))
                             <div class="form-group">
                                 <div class="col-sm-6 col-sm-offset-4">
-                                    {{--<div class="g-recaptcha" data-sitekey="{{ config('settings.reCaptchSite') }}"></div>--}}
-                                    <div class="g-recaptcha" data-sitekey="6Lex7YgUAAAAANo74RulMll0x1yXqdtzflygo3zn"></div>
+                                    <div class="g-recaptcha" data-sitekey="{{ config('settings.reCaptchSite') }}"></div>
+                                    {{--<div class="g-recaptcha" data-sitekey="6LcIUYkUAAAAAAXGbMBLpYoiT23X_1hNJpyv5k0K"></div>--}}
                                 </div>
                             </div>
                         @endif
