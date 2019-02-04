@@ -11,6 +11,7 @@ class UserController extends Controller
      *
      * @return void
      */
+//    ログイン状態のユーザのみ実行できる
     public function __construct()
     {
         $this->middleware('auth');

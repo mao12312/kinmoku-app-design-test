@@ -2,12 +2,12 @@
 
 return [
 
-    'app'               => 'Laravel',
-    'app2'              => 'Auth :version',
+    'app'               => 'App Name',
+    'app2'              => '',
     'home'              => 'Home',
-    'login'             => 'Login',
-    'logout'            => 'Logout',
-    'register'          => 'Register',
+    'login'             => 'Log In',
+    'logout'            => 'logout',
+    'register'          => 'Sign Up',
     'resetPword'        => 'Reset Password',
     'toggleNav'         => 'Toggle Navigation',
     'profile'           => 'Profile',
