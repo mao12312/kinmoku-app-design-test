@@ -265,7 +265,7 @@
                             <div class="article-img">
                                 <img src="{{asset('/images/article-img3.jpg')}}" alt="" class="img-fluid">
                             </div>
-                            <p>参照: <a href="index3" target="_blank">シンプルなweb page</a></p>
+                            <p>参照: <a href="lesson/index3" target="_blank">シンプルなweb page</a></p>
                         </div>
                     </section>
 
@@ -288,10 +288,10 @@
     <div class="footer-right">
 
         <a href="#">
-            <i class="fa fa-facebook"></i>
+            <i class="fab fa-facebook-f"></i>
         </a>
         <a href="#">
-            <i class="fa fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
         </a>
 
     </div>

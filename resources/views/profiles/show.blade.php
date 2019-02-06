@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html>
+
 {{--@extends('layouts.lesson')--}}
 @include('partials.head-lesson')
 <body>
@@ -193,10 +192,10 @@ background-size: auto 100%;
     <div class="footer-right">
 
         <a href="#">
-            <i class="fa fa-facebook"></i>
+            <i class="fab fa-facebook-f"></i>
         </a>
         <a href="#">
-            <i class="fa fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
         </a>
 
     </div>
@@ -224,7 +223,6 @@ background-size: auto 100%;
         crossorigin="anonymous"></script>
 </body>
 
-</html>
 {{--@endsection--}}
 
 {{--@section('footer_scripts')--}}

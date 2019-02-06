@@ -224,10 +224,10 @@
     <div class="footer-right">
 
         <a href="#">
-            <i class="fa fa-facebook"></i>
+            <i class="fab fa-facebook-f"></i>
         </a>
         <a href="#">
-            <i class="fa fa-twitter"></i>
+            <i class="fab fa-twitter"></i>
         </a>
 
     </div>
