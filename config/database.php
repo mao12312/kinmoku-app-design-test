@@ -41,10 +41,10 @@ return [
 
         'mysql' => [
             'driver'    => 'mysql',
-            'host'      => env('DB_HOST', 'mysql135.phy.lolipop.lan'),
-            'port'      => env('DB_PORT', '3306'),
-            'database'  => env('DB_DATABASE', 'LAA1016864-knmkdesign'),
-            'username'  => env('DB_USERNAME', 'LAA1016864'),
+            'host'      => env('DB_HOST', 'us-cdbr-iron-east-03.cleardb.net'),
+//            'port'      => env('DB_PORT', '3306'),
+            'database'  => env('DB_DATABASE', 'heroku_88556ed222b5d4d'),
+            'username'  => env('DB_USERNAME', '6ca53b25'),
             'password'  => env('DB_PASSWORD', 'kinmokudesignapp'),
 //            'unix_socket' => env('DB_SOCKET', '/Applications/MAMP/tmp/mysql/mysql.sock'),
             'charset'   => 'utf8mb4',
