@@ -294,6 +294,6 @@ Route::group(['middleware' => ['auth', 'activated', 'role:admin', 'activity', 't
     Route::get('active-users', 'AdminDetailsController@activeUsers');
 });
 
-Route::get('privacypolicy','PrivacyPolicyController@privacypolicy')->name('privacypolicy');
+Route::get('privacypolicy','PrivacyPolicyController@privacypolicy');
 
 
