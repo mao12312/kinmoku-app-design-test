@@ -186,7 +186,7 @@
     <div class="footer-right">
 
         <a href="#">
-            <i class="fas fa-facebook-f"></i>
+            <i class="fab fa-facebook-f"></i>
         </a>
         <a href="#">
             <i class="fab fa-twitter"></i>
@@ -199,7 +199,7 @@
         <div class="footer-links">
             <a href="#">近もく会</a>
             <p>異なる"言語"で、共に作る"空想"</p>
-
+            <a href="privacypolicy">プライバシーポリシー</a>
             <p class="mt-2">近もく会 &copy; 2018</p>
         </div>
 
