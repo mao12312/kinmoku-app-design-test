@@ -80,7 +80,7 @@ class ProfilesController extends Controller
             abort(404);
         }
 
-        $currentTheme = Theme::findOrFail($user->profile->theme_id);
+        $currentTheme = Theme::find($user->profile->theme_id);
 
         $data = [
             'user'         => $user,
