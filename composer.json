@@ -32,7 +32,8 @@
         "socialiteproviders/twitch": "^3.0",
         "socialiteproviders/youtube": "^3.0",
         "panique/laravel-sass": "dev-master",
-        "fzaninotto/faker": "^1.4"
+        "fzaninotto/faker": "^1.4",
+        "ext-gd": "*"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
