@@ -1,9 +1,9 @@
 
 
-@include('partials.head-lesson')
+<?php echo $__env->make('partials.head-lesson', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 
-@include('partials.nav-lesson')
+<?php echo $__env->make('partials.nav-lesson', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 
 <!--content_head ---------------------------------- -->
@@ -49,7 +49,7 @@
                     の開発や改善をする際のUXの設計をしやするとい
                     うメリットがあります。
                 </p>
-                <img src="{{asset('/img/img1.png')}}" alt="" class="img-fluid box-shadow-blue">
+                <img src="<?php echo e(asset('/img/img1.png')); ?>" alt="" class="img-fluid box-shadow-blue">
                 <div class="img_text">
                     ↑マイクロソフト、アマゾンなどの大企業でも重要とされている
                 </div>
@@ -100,7 +100,7 @@
                     <!-- modal body content -->
                     <div class="modal-body">
                         <div class="text-center">
-                            <img src="{{asset('/images/success.svg')}}" alt="" class="img-fluid box-shadow-blue">
+                            <img src="<?php echo e(asset('/images/success.svg')); ?>" alt="" class="img-fluid box-shadow-blue">
                             <h4>Good job!!!</h4>
                             <h6>ペルソナとUXの関係はどんなデザインをするにも重要です。これを機にしっかり身につけましょう！</h6>
                         </div>
@@ -142,7 +142,7 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
                 integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
         </script>
-        <script src="{{asset('/js/sticky-kit.js')}}"></script>
+        <script src="<?php echo e(asset('/js/sticky-kit.js')); ?>"></script>
         <script type="text/javascript">
             $(document).ready(function () {
                 return $("[data-sticky_column]").stick_in_parent({

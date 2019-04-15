@@ -1,12 +1,12 @@
 
-{{--</head>--}}
-@include('partials.head-lesson')
+
+<?php echo $__env->make('partials.head-lesson', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 <body>
 
 
 <!-- header -->
-@include('partials.nav-lesson')
+<?php echo $__env->make('partials.nav-lesson', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 <!-- header -->
 
 
