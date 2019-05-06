@@ -161,7 +161,7 @@
 
         <!-- title -->
         <div class="title-text">
-            <h1>Product</h2>
+            <h1>Product</h1>
                 <p>
                     学べるコンテンツはこちらです
                 </p>
@@ -174,7 +174,7 @@
             <div class="row">
                 <div class="col-md-4 product_img">
                     <a href="">
-                        <span></span>
+                        <span class="thum1"></span>
                     </a>
                 </div>
                 <div class="col-md-8 product_item">
@@ -195,37 +195,42 @@
             </div>
         </div>
         <!-- contents----------------------------------- -->
+
+        <!-- contents----------------------------------- -->
+
+        <div class="product_box box-shadow-blue">
+            <div class="row">
+                <div class="col-md-4 product_img">
+                    <a href="index4">
+                        <span class="thum2"></span>
+                    </a>
+                </div>
+                <div class="col-md-8 product_item">
+                    <h4>画像をメインとしたUI</h4>
+                    <p>今回はデザイナーのポートフォリオサイトを作成します。まずデザインを作成する前にユーザー体験(UX)を設計します。ユーザーを想定し、実際にデザイン設計を行なってみましょう！</p>
+                    <span><i class="far fa-clock"></i> 学習時間 3 時間</span>
+                    <div class="primary_btn box-shadow-blue align-item">
+                        <a href="lesson/teach-materlials1/0/1">
+                            さっそく始める！
+                        </a>
+                    </div>
+                    <div class="primary_btn second box-shadow-blue align-item">
+                        <a href="index4">
+                            教材を確認する
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- contents----------------------------------- -->
+
     </div>
 </main>
 <!-- main-content -->
 
-
 <!-- footer -->
-<footer id="footer">
-
-    <div class="footer-right">
-
-        <a href="#">
-            <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#">
-            <i class="fab fa-twitter"></i>
-        </a>
-
-    </div>
-
-    <div class="footer-left">
-
-        <div class="footer-links">
-            <a href="#">近もく会</a>
-            <p>異なる"言語"で、共に作る"空想"</p>
-            <a href="privacypolicy">プライバシーポリシー</a>
-            <p class="mt-2">近もく会 &copy; 2018</p>
-        </div>
-
-    </div>
-
-</footer>
+@include('partials.footer')
 <!-- footer -->
 
 <!-- Optional JavaScript -->

@@ -201,6 +201,7 @@ h6 {
   }
   .navbar .logomark {
     height: 30px;
+    width: 60px;
   }
   .navbar .nav-list {
     height: auto;
@@ -1173,7 +1174,6 @@ article section .cont_btn_mas_dets:hover::after {
   width: 100%;
   height: 100%;
   background-size: cover;
-  background-image: url(../images/product-thumnail1.jpg);
 }
 
 .product_box .product_item {
@@ -1216,7 +1216,6 @@ article section .cont_btn_mas_dets:hover::after {
   height: 385px;
   width: 100%;
   text-align: center;
-  background-image: url(../images/product-thumnail1.jpg);
   background-size: cover;
 }
 
@@ -1229,6 +1228,14 @@ article section .cont_btn_mas_dets:hover::after {
 
 .content_head .overlay h1 {
   color: #fff;
+}
+
+.thum1 {
+  background-image: url(../images/product-thumnail1.jpg);
+}
+
+.thum2 {
+  background-image: url(../images/product-thumnail2.png);
 }
 
 @media (max-width: 768px) {
@@ -1263,7 +1270,7 @@ article section .cont_btn_mas_dets:hover::after {
   line-height: 60px;
 }
 
-.material_chapter .material_items ul li .chapter-circle {
+.material_chapter .material_items ul li .chapter_circle {
   margin-right: 15px;
   width: 30px;
   height: 30px;
@@ -1273,10 +1280,11 @@ article section .cont_btn_mas_dets:hover::after {
   vertical-align: middle;
   display: inline-block;
   position: relative;
+  cursor: pointer;
   background-color: #292c2f;
 }
 
-.material_chapter .material_items ul li .chapter-circle::before {
+.material_chapter .material_items ul li .chapter_circle::before {
   background: inherit;
   content: " ";
   width: 100%;
@@ -1290,7 +1298,7 @@ article section .cont_btn_mas_dets:hover::after {
   transition: none;
 }
 
-.material_chapter .material_items ul li .chapter-circle:hover {
+.material_chapter .material_items ul li .chapter_circle:hover {
   margin-right: 13px;
   width: 32px;
   height: 32px;
@@ -1300,7 +1308,7 @@ article section .cont_btn_mas_dets:hover::after {
   -moz-transition: background-color .2s ease-in;
 }
 
-.material_chapter .material_items ul li .chapter-circle:hover::before {
+.material_chapter .material_items ul li .chapter_circle:hover::before {
   opacity: 0;
   -webkit-transform: scale(1.35);
   transform: scale(1.35);
@@ -1329,8 +1337,7 @@ article section .cont_btn_mas_dets:hover::after {
 }
 
 .material_article p {
-  opacity: 0.6;
-  line-height: 1.9em;
+  line-height: 2.2em;
 }
 
 .material_article p span {
@@ -1361,6 +1368,8 @@ article section .cont_btn_mas_dets:hover::after {
 
 .material_article a {
   cursor: pointer;
+  color: #4288FB;
+  text-decoration-line: underline;
 }
 
 @media (max-width: 992px) {

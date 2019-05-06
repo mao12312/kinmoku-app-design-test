@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
     <a class="logomark" href="{{route('welcome')}}">
-        <img src="{{asset('/images/404_logo.svg')}}" alt="" class="logo">
+        <img src="{{asset('/images/404_logo.png')}}" alt="" class="logo">
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"

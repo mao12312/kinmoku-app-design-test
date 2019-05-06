@@ -1,6 +1,4 @@
-
-
-<?php echo $__env->make('partials.head-lesson', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<?php echo $__env->make('partials.head-teach-material', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
 
 
 <?php echo $__env->make('partials.nav-lesson', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
@@ -8,7 +6,7 @@
 
 <!--content_head ---------------------------------- -->
 
-<div class="content_head" id="1">
+<div class="content_head thum1" id="1">
     <div class="overlay align-items-center">
         <h1>ユーザーを考えよう！</h1>
     </div>
@@ -76,13 +74,13 @@
                 <div class="material_items" data-sticky_column>
                     <ul>
                         <li class="chapter-show-list scroll">
-                            <a class="chapter-circle"></a>
+                            <a class="chapter_circle"></a>
                             <a href="#1">1：TOP</a>
                         </li>
                     </ul>
                     <ul>
                         <li class="chapter-show-list scroll">
-                            <a class="chapter-circle"></a>
+                            <a class="chapter_circle"></a>
                             <a href="#2">2：今回のペルソナを設定する</a>
                         </li>
                     </ul>
@@ -124,7 +122,13 @@
                 </div>
             </div>
         </div>
+    </div>
+</main>
         <!-- Modal -->
+
+    <!-- footer -->
+<?php echo $__env->make('partials.footer', \Illuminate\Support\Arr::except(get_defined_vars(), array('__data', '__path')))->render(); ?>
+<!-- footer -->
 
 
 <!-- Optional JavaScript -->
@@ -143,6 +147,7 @@
                 integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
         </script>
         <script src="<?php echo e(asset('/js/sticky-kit.js')); ?>"></script>
+        <script src="<?php echo e(asset('/js/main.js')); ?>"></script>
         <script type="text/javascript">
             $(document).ready(function () {
                 return $("[data-sticky_column]").stick_in_parent({

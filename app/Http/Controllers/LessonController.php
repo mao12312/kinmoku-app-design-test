@@ -165,7 +165,19 @@ class LessonController extends Controller
         return view('lesson.index');
     }
 
+//    teach-materlials1
 
+    public function getMaterlials1_01(){
+        return view('lesson.teach-materlials1.0.1');
+    }
+
+    public function getMaterlials1_02(){
+        return view('lesson.teach-materlials1.0.2');
+    }
+
+    public function getMaterlials1_03(){
+        return view('lesson.teach-materlials1.0.3');
+    }
 
 
 

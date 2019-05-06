@@ -30,31 +30,7 @@
 
 
 <!-- footer -->
-<footer id="footer">
-
-    <div class="footer-right">
-
-        <a href="#">
-            <i class="fab fa-facebook-f"></i>
-        </a>
-        <a href="#">
-            <i class="fab fa-twitter"></i>
-        </a>
-
-    </div>
-
-    <div class="footer-left">
-
-        <div class="footer-links">
-            <a href="#">近もく会</a>
-            <p>異なる"言語"で、共に作る"空想"</p>
-            <a href="privacypolicy">プライバシーポリシー</a>
-            <p class="mt-2">近もく会 &copy; 2018</p>
-        </div>
-
-    </div>
-
-</footer>
+@include('partials.footer')
 <!-- footer -->
 
 <!-- Optional JavaScript -->
