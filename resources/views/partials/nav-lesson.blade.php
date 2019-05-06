@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <a class="logomark" href="#">
-        <img src="{{asset('/images/kinmoku-logo.svg')}}" alt="" class="logo">
+    <a class="logomark" href="{{route('welcome')}}">
+        <img src="{{asset('/images/404_logo.png')}}" alt="" class="logo">
     </a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
@@ -15,10 +15,10 @@
                 <li><a class="nav-link" href="{{ route('register') }}">{{ trans('titles.register') }}</a></li>
             @else
             <li class="nav-item text-uppercase">
-                <a class="nav-link" href="{{route('welcome')}}">Home</a>
+                <a class="nav-link" href="{{route('welcome')}}">Product</a>
             </li>
             <li class="nav-item text-uppercase active">
-                <a class="nav-link" href="{{route('lesson-index2')}}">products</a>
+                <a class="nav-link" href="{{route('lesson-index2')}}">About</a>
             </li>
             {{--<li class="nav-item text-uppercase">--}}
                 {{--<a class="nav-link" href="{{route('lesson-user')}}">--}}
